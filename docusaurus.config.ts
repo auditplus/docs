@@ -34,12 +34,12 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/docs/',
-  baseUrl: '/aerp-docs/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'auditplus', // Usually your GitHub org/user name.
-  projectName: 'aerp-docs', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   deploymentBranch: 'main',
 
   onBrokenLinks: 'warn',  // throw
@@ -58,7 +58,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
